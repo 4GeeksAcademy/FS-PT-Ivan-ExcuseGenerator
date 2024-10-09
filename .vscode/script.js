@@ -14,8 +14,9 @@ window.onload = function () {
 
     const createExcuse = () => {
         let excuse = `${getRandomElement(excuseParts.who)} ${getRandomElement(excuseParts.action)} ${getRandomElement(excuseParts.what)} ${getRandomElement(excuseParts.when)}.`;
-return excuse;
+        return excuse;
     };
 
+    console.log(createExcuse());
 
 };
